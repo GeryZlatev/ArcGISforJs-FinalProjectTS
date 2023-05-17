@@ -14,7 +14,7 @@ require ([
     })
 
     const view = new MapView({
-        container: "viewDiv",
+        container: "viewDiv", // трябва да бъде еднакво с id  в index.js
         map: webMap
     });
 })
